@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="18.0" layoutY="61.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+        <columns>
+          <TableColumn id="brand" prefWidth="75.0" text="Марка" />
+          <TableColumn id="model" prefWidth="75.0" text="Модель" />
+          <TableColumn id="category" prefWidth="75.0" text="Категория" />
+          <TableColumn id="stateNumber" prefWidth="75.0" text="Государственный номер" />
+          <TableColumn id="typeVehicle" prefWidth="75.0" text="Тип ТС" />
+          <TableColumn id="year" prefWidth="75.0" text="Год выпуска" />
+          <TableColumn id="hasTrailer" prefWidth="75.0" text="Наличие прицепа" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
